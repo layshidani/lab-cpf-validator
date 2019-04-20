@@ -1,5 +1,5 @@
 console.log('==== Validador de CPF ====');
-function inputValidate(cpf) {
+function validateInput(cpf) {
   if (cpf.length !== 11 ||
     cpf === "00000000000" ||
     cpf === "11111111111" ||
@@ -17,7 +17,7 @@ function inputValidate(cpf) {
 }
 
 function cpfValidator(cpf) {
-  if (inputValidate(cpf)) {
+  if (validateInput(cpf)) {
     let sum = 0;
     let rest;
 
