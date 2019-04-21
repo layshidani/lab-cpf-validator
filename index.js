@@ -1,6 +1,10 @@
-console.log('==== Validador de CPF ====');
+console.log("*********************");
+console.log("* Validador de CPF  *");
+console.log("*********************");
+
 function validateInput(cpf) {
-  if (cpf.length !== 11 ||
+  if (
+    cpf.length !== 11 ||
     cpf === "00000000000" ||
     cpf === "11111111111" ||
     cpf === "22222222222" ||
@@ -10,7 +14,8 @@ function validateInput(cpf) {
     cpf === "66666666666" ||
     cpf === "77777777777" ||
     cpf === "88888888888" ||
-    cpf === "99999999999") {
+    cpf === "99999999999"
+  ) {
     return false;
   }
   return true;
@@ -58,6 +63,4 @@ function cpfValidator(cpf) {
   return false;
 }
 
-console.log('cpfValidator("40"): ', cpfValidator('40'));
-console.log('cpfValidator("12345678909"): ', cpfValidator('12345678909'));
-console.log('cpfValidator("99999999999"): ', cpfValidator('99999999999'));
+module.exports = cpfValidator;

@@ -1,0 +1,26 @@
+{
+  "name": "lab-cpf-validator",
+  "version": "1.0.0",
+  "description": "Validador de numeros de CPF",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "format": "prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hlays/lab-cpf-validator.git"
+  },
+  "keywords": [
+    "cpf",
+    "validador",
+    "javascript",
+    "node"
+  ],
+  "author": "Lays M. Hidani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hlays/lab-cpf-validator/issues"
+  },
+  "homepage": "https://github.com/hlays/lab-cpf-validator#readme"
+}
