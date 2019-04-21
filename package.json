@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/hlays/lab-cpf-validator#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "prettier": "^1.17.0"
   }
