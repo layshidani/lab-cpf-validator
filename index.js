@@ -44,7 +44,7 @@ function cpfValidator(cpf) {
 
     sum = 0;
 
-    for (i = 1; i <= 10; i++) {
+    for (let i = 1; i <= 10; i++) {
       sum = sum + parseInt(cpf.substring(i - 1, i)) * (12 - i);
     }
     rest = sum % 11;
