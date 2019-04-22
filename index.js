@@ -1,7 +1,3 @@
-console.log('*********************');
-console.log('* Validador de CPF  *');
-console.log('*********************');
-
 function validateInput(cpf) {
   if (
     cpf.length !== 11 ||
@@ -29,8 +25,8 @@ function cpfValidator(cpf) {
     for (let i = 1; i <= 9; i++) {
       sum = sum + parseInt(cpf.substring(i - 1, i)) * (11 - i);
     }
-
     rest = sum % 11;
+
 
     if (rest === 10 || rest === 11 || rest < 2) {
       rest = 0;
@@ -38,6 +34,7 @@ function cpfValidator(cpf) {
       rest = 11 - rest;
     }
 
+    // não passou 
     if (rest !== parseInt(cpf.substring(9, 10))) {
       return false;
     }
@@ -49,12 +46,13 @@ function cpfValidator(cpf) {
     }
     rest = sum % 11;
 
+    // não passou 
     if (rest === 10 || rest === 11 || rest < 2) {
       rest = 0;
     } else {
       rest = 11 - rest;
     }
-
+    // não passou
     if (rest !== parseInt(cpf.substring(10, 11))) {
       return false;
     }
