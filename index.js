@@ -21,10 +21,14 @@ function cpfValidator(cpf) {
   if (validateInput(cpf)) {
     let sum = 0;
     let rest;
+    let num = cpf.split('');
 
-    for (let i = 1; i <= 9; i++) {
-      sum = sum + parseInt(cpf.substring(i - 1, i)) * (11 - i);
+    for (let i in num) {
+      if (i < 9) {
+        sum = sum + parseInt(num[i] * (10 - i));
+      }
     }
+
     rest = sum % 11;
 
 
@@ -41,18 +45,20 @@ function cpfValidator(cpf) {
 
     sum = 0;
 
-    for (let i = 1; i <= 10; i++) {
-      sum = sum + parseInt(cpf.substring(i - 1, i)) * (12 - i);
+    for (let i in num) {
+      if (i < 10) {
+        sum = sum + parseInt(num[i] * (11 - i));
+      }
     }
+
     rest = sum % 11;
 
-    // não passou 
     if (rest === 10 || rest === 11 || rest < 2) {
       rest = 0;
     } else {
       rest = 11 - rest;
     }
-    // não passou
+
     if (rest !== parseInt(cpf.substring(10, 11))) {
       return false;
     }
