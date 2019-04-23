@@ -14,6 +14,10 @@ describe('Validador de CPF', () => {
     it('77266592038', () => {
       assert.equal(cpfValidator('77266592038'), true);
     });
+
+    it('32384739028', () => {
+      assert.equal(cpfValidator('32384739028'), false);
+    });
   });
 
   describe('Deve retornar false para CPFs inválidos:', () => {
