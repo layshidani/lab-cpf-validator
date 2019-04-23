@@ -11,7 +11,7 @@ $  npm install lab-cpf-validator
 ## Como utilizar:
 
 ```
-> const validateCpf = require('index');
+> const cpf = require('lab-cpf-validator');
 > console.log(validateCpf('12345678909'))
 > // returns true
 ```
