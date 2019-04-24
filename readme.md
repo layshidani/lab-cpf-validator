@@ -1,4 +1,8 @@
 # Validador de CPF v1.0.0
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
+![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
+![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
+![chai](https://img.shields.io/badge/-chai-orange.svg)
 
 Esta biblioteca se destina a validar números de cpf.
 
@@ -9,10 +13,18 @@ $  npm install lab-cpf-validator
 ```
 
 ## Como utilizar:
+```
+> const validateCpf = require('lab-cpf-validator');
+> console.log(validateCpf('número-do-cpf'));
+```
+*Formato de entrada da função: sting.*
+
+
+Exemplo:
 
 ```
 > const cpf = require('lab-cpf-validator');
-> console.log(validateCpf('12345678909'))
+> console.log(validateCpf('12345678909'));
 > // returns true
 ```
 
