@@ -65,4 +65,4 @@ function cpfValidator(cpf) {
   return false;
 }
 
-module.exports = cpfValidator;
+module.exports.cpfValidator = cpfValidator;
