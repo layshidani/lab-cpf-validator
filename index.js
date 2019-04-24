@@ -31,14 +31,12 @@ function cpfValidator(cpf) {
 
     rest = sum % 11;
 
-
     if (rest === 10 || rest === 11 || rest < 2) {
       rest = 0;
     } else {
       rest = 11 - rest;
     }
 
-    // não passou 
     if (rest !== parseInt(cpf.substring(9, 10))) {
       return false;
     }
