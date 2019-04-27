@@ -26,8 +26,8 @@ Exemplo:
 ## Roadmap oficial do projeto
 
 ### versão 2.0.0
-* entrada para texto e números
+* entrada de dados formato string e number
 
 ### versão 1.0.0 (released)
 * validação de CPF
-* entrada para texto
+* entrada de dados formato string
