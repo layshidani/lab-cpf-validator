@@ -13,18 +13,13 @@ $  npm install lab-cpf-validator
 ```
 
 ## Como utilizar:
-```
-> const validateCpf = require('lab-cpf-validator');
-> console.log(validateCpf('número-do-cpf'));
-```
 *Formato de entrada da função: sting.*
-
 
 Exemplo:
 
 ```
 > const cpf = require('lab-cpf-validator');
-> console.log(validateCpf('12345678909'));
+> console.log(cpf('12345678909'));
 > // returns true
 ```
 
@@ -33,6 +28,6 @@ Exemplo:
 ### versão 2.0.0
 * entrada para texto e números
 
-### versão 1.0.0
+### versão 1.0.0 (released)
 * validação de CPF
 * entrada para texto
