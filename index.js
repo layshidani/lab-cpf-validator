@@ -31,34 +31,10 @@ function cpfValidator(cpf) {
 
     rest = sum % 11;
 
-    if (rest === 10 || rest === 11 || rest < 2) {
+    if (rest < 2) {
       rest = 0;
     } else {
       rest = 11 - rest;
-    }
-
-    if (rest !== parseInt(cpf.substring(9, 10))) {
-      return false;
-    }
-
-    sum = 0;
-
-    for (let i in num) {
-      if (i < 10) {
-        sum = sum + parseInt(num[i] * (11 - i));
-      }
-    }
-
-    rest = sum % 11;
-
-    if (rest === 10 || rest === 11 || rest < 2) {
-      rest = 0;
-    } else {
-      rest = 11 - rest;
-    }
-
-    if (rest !== parseInt(cpf.substring(10, 11))) {
-      return false;
     }
     return true;
   }
