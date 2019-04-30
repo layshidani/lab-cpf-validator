@@ -32,4 +32,4 @@ const isValidCpf = (cpf) => {
 
 const cpfValidator = (cpf) => !(isRepeatingNum(cpf)) && isValidCpf(cpf);
 
-module.exports.cpfValidator = cpfValidator;
+module.exports = cpfValidator;
