@@ -2,22 +2,25 @@ const { assert } = require('chai');
 const cpfValidator = require('../lib/index');
 
 describe('Validador de CPF', () => {
-  describe('CPFs validos:', () => {
-    it('Deve retornar true para: 82367085005 - (resto < 2)', () => {
+  context('CPFs validos:', () => {
+    it('Deve retornar true para: 82367085005', () => {
       assert.equal(cpfValidator.cpfValidator('82367085005'), true);
     });
-    it('Deve retornar true para: 36161186039 - (resto < 2)', () => {
+    it('Deve retornar true para: 36161186039', () => {
       assert.equal(cpfValidator.cpfValidator('36161186039'), true);
     });
-    it('Deve retornar true para: 12345678909 - (resto > 2)', () => {
+    it('Deve retornar true para: 12345678909', () => {
       assert.equal(cpfValidator.cpfValidator('12345678909'), true);
     });
-    it('Deve retornar true para: 97509998000 - (resto > 2)', () => {
+    it('Deve retornar true para: 97509998000', () => {
       assert.equal(cpfValidator.cpfValidator('97509998000'), true);
     });
   });
 
-  describe('CPFs invalidos:', () => {
+  context('CPFs invalidos:', () => {
+    it('Deve retornar false para: 45326789812', () => {
+      assert.equal(cpfValidator.cpfValidator('45326789812'), false);
+    });
     it('Deve retornar false para entrada vazia', () => {
       assert.equal(cpfValidator.cpfValidator(''), false);
     });
