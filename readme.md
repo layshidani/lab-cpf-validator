@@ -1,6 +1,6 @@
 # Validador de CPF v1.0.2
 
-![Lib version](https://img.shields.io/badge/lib-v1.0.0-blue.svg) 
+![Lib version](https://img.shields.io/badge/lib-v1.0.2-blue.svg) 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
 ![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
@@ -15,7 +15,7 @@ npm i lab-cpf-validator
 ```
 
 ## Como utilizar:
-*Formato de entrada da função: sting.*
+*Formato de entrada da função: string.*
 
 Exemplo:
 
