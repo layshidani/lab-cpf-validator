@@ -1,6 +1,6 @@
 {
   "name": "lab-cpf-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Validador de numeros de CPF",
   "main": "index.js",
   "scripts": {
@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/hlays/lab-cpf-validator#readme",
   "dependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^5.16.0",
-    "prettier": "^1.17.0"
+    "chai": "4.2.0",
+    "eslint": "5.16.0",
+    "prettier": "1.17.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
