@@ -1,4 +1,4 @@
-# Validador de CPF v1.0.0
+# Validador de CPF v1.0.2
 
 ![Lib version](https://img.shields.io/badge/lib-v1.0.0-blue.svg) 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
