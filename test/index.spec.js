@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const cpfValidator = require('../index');
+const cpfValidator = require('../lib/index');
 
 describe('Validador de CPF', () => {
   describe('CPFs validos:', () => {
