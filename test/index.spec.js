@@ -17,17 +17,17 @@ describe('Validador de CPF', () => {
     });
   });
 
-  describe('Deve retornar false para CPFs invalidos:', () => {
-    it('vazio', () => {
+  describe('CPFs invalidos:', () => {
+    it('Deve retornar false para entrada vazia', () => {
       assert.equal(cpfValidator.cpfValidator(''), false);
     });
-    it('Numeros e letras: 1sd2d3456', () => {
+    it('Deve retornar false para entrada com Numeros e letras: 1sd2d3456', () => {
       assert.equal(cpfValidator.cpfValidator('1sd2d3456'), false);
     });
-    it('< 9 digitos: 123456', () => {
+    it('Deve retornar false para entrada < 9 digitos: 123456', () => {
       assert.equal(cpfValidator.cpfValidator('123456'), false);
     });
-    it('9 digitos iguais como 00000000000', () => {
+    it('Deve retornar false para entrada com 9 digitos iguais como 00000000000', () => {
       assert.equal(cpfValidator.cpfValidator('000000000'), false);
     });
   });
