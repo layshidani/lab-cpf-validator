@@ -11,7 +11,7 @@ Esta biblioteca se destina a validar números de cpf.
 ## Como instalar:
 
 ```
-$  npm install lab-cpf-validator
+npm i lab-cpf-validator
 ```
 
 ## Como utilizar:
@@ -20,9 +20,9 @@ $  npm install lab-cpf-validator
 Exemplo:
 
 ```
-> const cpf = require('lab-cpf-validator');
-> console.log(cpf('12345678909'));
-> // returns true
+const cpf = require('lab-cpf-validator');
+console.log(cpf('12345678909'));
+// returns true
 ```
 
 ## Roadmap oficial do projeto
