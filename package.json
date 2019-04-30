@@ -1,6 +1,6 @@
 {
   "name": "lab-cpf-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validador de numeros de CPF",
   "main": "index.js",
   "scripts": {
