@@ -3,16 +3,16 @@ const cpfValidator = require('../lib/index');
 
 describe('Validador de CPF', () => {
   describe('CPFs validos:', () => {
-    it('(resto < 2) - Deve retornar true para: 82367085005', () => {
+    it('Deve retornar true para: 82367085005 - (resto < 2)', () => {
       assert.equal(cpfValidator.cpfValidator('82367085005'), true);
     });
-    it('(resto < 2) - Deve retornar true para: 36161186039', () => {
+    it('Deve retornar true para: 36161186039 - (resto < 2)', () => {
       assert.equal(cpfValidator.cpfValidator('36161186039'), true);
     });
-    it('(resto > 2) - Deve retornar true para: 12345678909', () => {
+    it('Deve retornar true para: 12345678909 - (resto > 2)', () => {
       assert.equal(cpfValidator.cpfValidator('12345678909'), true);
     });
-    it('(resto > 2) - Deve retornar true para: 97509998000', () => {
+    it('Deve retornar true para: 97509998000 - (resto > 2)', () => {
       assert.equal(cpfValidator.cpfValidator('97509998000'), true);
     });
   });
