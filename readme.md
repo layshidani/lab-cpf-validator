@@ -1,6 +1,6 @@
-# Validador de CPF v1.0.2
+# Validador de CPF
 
-![Lib version](https://img.shields.io/badge/lib-v1.0.2-blue.svg) 
+![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg) 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
 ![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
@@ -21,6 +21,7 @@ Exemplo:
 
 ```
 const cpf = require('lab-cpf-validator');
+
 console.log(cpf('12345678909'));
 // returns true
 ```
