@@ -10,7 +10,7 @@ Esta biblioteca se destina a validar números de cpf.
 
 ## Como instalar:
 
-```
+```bash
 npm i lab-cpf-validator
 ```
 
@@ -19,7 +19,7 @@ npm i lab-cpf-validator
 
 Exemplo:
 
-```
+```node
 const cpf = require('lab-cpf-validator');
 
 console.log(cpf('12345678909'));
