@@ -1,7 +1,7 @@
 # Validador de CPF
-
-![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg) 
-![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg) 
+[![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-credit-card-validator)
+![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg)
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg)
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
 ![nyc](https://img.shields.io/badge/-nyc-brightgreen.svg)
 ![chai](https://img.shields.io/badge/-chai-orange.svg)
