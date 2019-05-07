@@ -1,5 +1,5 @@
 # Validador de CPF
-[![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-credit-card-validator)
+[![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-cpf-validator)
 ![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg)
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
