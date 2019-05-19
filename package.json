@@ -4,9 +4,11 @@
   "description": "Validador de numeros de CPF",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha",
     "format": "prettier",
-    "lint": "./node_modules/.bin/eslint lib/index.js"
+    "lint": "./node_modules/.bin/eslint lib/index.js",
+    "test": "mocha",
+    "test:coverage": "nyc npm test",
+    "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,7 @@
   },
   "devDependencies": {
     "chai": "4.2.0",
+    "coveralls": "^3.0.3",
     "eslint": "5.16.0",
     "mocha": "6.1.4",
     "nyc": "14.0.0"
