@@ -6,7 +6,7 @@
   "scripts": {
     "test": "nyc mocha",
     "format": "prettier",
-    "eslint": "./node_modules/.bin/eslint lib/index.js"
+    "lint": "./node_modules/.bin/eslint lib/index.js"
   },
   "repository": {
     "type": "git",
