@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/hlays/lab-cpf-validator/badge.svg?branch=master)](https://coveralls.io/github/hlays/lab-cpf-validator?branch=master)
 
 [![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-cpf-validator)
-![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/hlays/lab-cpf-validator.svg)
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow.svg)
 ![mocha](https://img.shields.io/badge/-mocha-yellowgreen.svg)
