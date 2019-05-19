@@ -1,5 +1,6 @@
 # Validador de CPF
 [![Build Status](https://travis-ci.org/hlays/lab-cpf-validator.svg?branch=master)](https://travis-ci.org/hlays/lab-cpf-validator)
+[![Coverage Status](https://coveralls.io/repos/github/hlays/lab-cpf-validator/badge.svg?branch=master)](https://coveralls.io/github/hlays/lab-cpf-validator?branch=master)
 
 [![link-npm](https://img.shields.io/badge/link-npm-red.svg)](https://www.npmjs.com/package/lab-cpf-validator)
 ![Lib version](https://img.shields.io/badge/lib-v1.0.3-blue.svg)
