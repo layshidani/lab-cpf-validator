@@ -24,9 +24,11 @@ npm i lab-cpf-validator
 Exemplo:
 
 ```node
+// Importar módulo (necessário apenas uma vez):
 const cpf = require('lab-cpf-validator');
 
-console.log(cpf('12345678909'));
+// Testar número de cpf:
+cpf('12345678909');
 // returns true
 ```
 
